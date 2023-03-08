@@ -1,10 +1,11 @@
-# Quadtree-dictionary-on-Melbournes-foothpath-data
+# Quadtree-dictionary-on-Melbournes-foothpath-data #
 
-Supporting Point Region Queries: for this satge value is always 3
+# Supporting Point Region Queries: for this satge value is always 3
 An example execution of the program might be:
 
-#make -B dict3
-#./dict3 3 dataset_2.csv output.txt 144.969 -37.7975 144.971 -37.7955
+# make -B dict3
+
+# ./dict3 3 dataset_2.csv output.txt 144.969 -37.7975 144.971 -37.7955
 
 (/dict3 stage datafile outputfile start_longitude start_latitude end_longitude end_latitude) -> explains above command
 
@@ -17,12 +18,13 @@ Where multiple footpaths are present in the found point region, footpaths are pr
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Supporting Range Queries: For this stage value is always 4
+# Supporting Range Queries: For this stage value is always 4
 quadtree supports range queries given by (x, y) co-ordinate pairs.
 An example execution of the program might be:
 
-#make -B dict4
-#./dict4 4 dataset_2.csv output.txt 144.968 -37.797 144.977 -37.79
+# make -B dict4
+
+# ./dict4 4 dataset_2.csv output.txt 144.968 -37.797 144.977 -37.79
 
 (./dict4 stage datafile outputfile start_longitude start_latitude end_longitude end_latitude) -> explains above command
 
