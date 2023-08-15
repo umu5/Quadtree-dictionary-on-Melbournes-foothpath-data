@@ -1,5 +1,5 @@
 # Quadtree-dictionary-on-Melbournes-foothpath-data #
-I have added test files in this repon as well
+I have added test files in this repo as well
 
 # Supporting Point Region Queries: for this satge value is always 3
 An example execution of the program might be:
